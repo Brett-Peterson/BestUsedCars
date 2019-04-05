@@ -1,6 +1,6 @@
 # Best Used Cars
 This is the start of a used car dealership project.
-In this project I am using a fakel car lot as a business to build a website for.
+In this project I am using a fake car lot as a business to build a website for.
 
 ## To be added
 - List of available vehicles 
