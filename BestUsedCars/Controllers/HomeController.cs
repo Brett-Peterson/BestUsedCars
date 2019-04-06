@@ -29,5 +29,9 @@ namespace BestUsedCars.Controllers
         {
             return View();
         }
+        public IActionResult Service()
+        {
+            return View();
+        }
     }
 }
