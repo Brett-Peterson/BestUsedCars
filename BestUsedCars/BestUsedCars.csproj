@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\Mechanic.jpg" />
     <None Include="wwwroot\css\vintage1.jpg" />
+    <None Include="wwwroot\css\vintage2.jpg" />
   </ItemGroup>
 
 
@@ -14,6 +16,11 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
 
 </Project>
