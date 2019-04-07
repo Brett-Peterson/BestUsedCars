@@ -33,5 +33,9 @@ namespace BestUsedCars.Controllers
         {
             return View();
         }
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
     }
 }
