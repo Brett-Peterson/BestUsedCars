@@ -37,5 +37,9 @@ namespace BestUsedCars.Controllers
         {
             return View();
         }
+        public IActionResult BlueBook()
+        {
+            return View();
+        }
     }
 }
