@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestUsedCars", "BestUsedCars\BestUsedCars.csproj", "{3690CB5B-2429-421D-BBA4-D950BAB01CA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestUsedCars", "BestUsedCars\BestUsedCars.csproj", "{3690CB5B-2429-421D-BBA4-D950BAB01CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestUsedCarsForms", "BestUsedCarsForms\BestUsedCarsForms.csproj", "{A55E456A-19C2-4006-A248-DECE52DEFEBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3690CB5B-2429-421D-BBA4-D950BAB01CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3690CB5B-2429-421D-BBA4-D950BAB01CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3690CB5B-2429-421D-BBA4-D950BAB01CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55E456A-19C2-4006-A248-DECE52DEFEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55E456A-19C2-4006-A248-DECE52DEFEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55E456A-19C2-4006-A248-DECE52DEFEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55E456A-19C2-4006-A248-DECE52DEFEBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
