@@ -8,8 +8,7 @@ namespace BestUsedCars.Models
 {
     public class VehiclesContext : DbContext
     {
-        private const string ConnectionString = @"server = (localdb)\MSSQLLocalDB; database=BestUsedCarsVehicles;" +
-    @"trusted_connection=true";
+        private const string ConnectionString = @"server = (localdb)\MSSQLLocalDB; database=BestUsedCarsVehicles;trusted_connection=true";
         public DbSet<Vehicle> Vehicles { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -13,7 +13,7 @@ namespace BestUsedCars.Models
         //LotId is a self generated number for business use
        
         public int LotID { get; set; }
-        [Key]
+        
         [Required]
         [StringLength (17)]
         public string VIN { get; set; }
