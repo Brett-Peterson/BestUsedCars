@@ -41,5 +41,25 @@ namespace BestUsedCars.Controllers
         {
             return View();
         }
+        public IActionResult CurrentList()
+        {
+            //TODO create list and display here
+
+
+            /* private async Task ReadVehiclesAsync()
+             {
+                 using (var context = new VehicleContext())
+                 {
+                     List<Vehicle> CurrentList = await context.Vehicles.ToListAsync();
+                     foreach (var v in Vehicles)
+                     {
+                         Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.Miles}{v.Price}");
+                     }
+                 }
+                 Console.WriteLine();
+             }
+             */
+            return View();
+        }
     }
 }

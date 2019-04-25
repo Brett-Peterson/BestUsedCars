@@ -56,6 +56,7 @@
             this.tbPurchaser = new System.Windows.Forms.TextBox();
             this.PurchaseDate = new System.Windows.Forms.MonthCalendar();
             this.lblDate = new System.Windows.Forms.Label();
+            this.btnPurchaseVehicle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblVIN
@@ -281,11 +282,21 @@
             this.lblDate.TabIndex = 27;
             this.lblDate.Text = "Purchase Date";
             // 
+            // btnPurchaseVehicle
+            // 
+            this.btnPurchaseVehicle.Location = new System.Drawing.Point(89, 404);
+            this.btnPurchaseVehicle.Name = "btnPurchaseVehicle";
+            this.btnPurchaseVehicle.Size = new System.Drawing.Size(100, 34);
+            this.btnPurchaseVehicle.TabIndex = 28;
+            this.btnPurchaseVehicle.Text = "Enter Purchase";
+            this.btnPurchaseVehicle.UseVisualStyleBackColor = true;
+            // 
             // frmVehiclePurchase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 450);
+            this.Controls.Add(this.btnPurchaseVehicle);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.PurchaseDate);
             this.Controls.Add(this.tbPurchaser);
@@ -351,6 +362,7 @@
         private System.Windows.Forms.TextBox tbPurchaser;
         private System.Windows.Forms.MonthCalendar PurchaseDate;
         private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Button btnPurchaseVehicle;
     }
 }
 

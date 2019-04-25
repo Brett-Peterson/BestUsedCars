@@ -1,4 +1,4 @@
-﻿
+﻿/* This creates a database called BestUsedCarsVehicles and populates with 9 test cars in a Table called Vehicles
 use master
 IF DB_ID('BestUsedCarsVehicles') IS NOT NULL
 		DROP DATABASE BestUsedCarsVehicles
@@ -43,3 +43,4 @@ VALUES('1FTSW21P86EA44631','2006','Ford','F 250 Powerstroke','17999','Red','1787
 	,('1GT424E83FF575863','2015','GMC','Sierra DURAMAX 3500','51999','White','40130')
 	,('2HNYD28609H533769','2009','Acura','MDX','11990','Black','151529')
 
+*/
