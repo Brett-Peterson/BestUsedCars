@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace BestUsedCarsForms
 {
-    public partial class frmVehiclePurchase : Form
+    public partial class FrmVehiclePurchase : Form
     {
-        public frmVehiclePurchase()
+        public FrmVehiclePurchase()
         {
             InitializeComponent();
         }
+
+        private void btnPurchaseVehicle_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

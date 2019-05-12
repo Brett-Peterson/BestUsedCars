@@ -24,7 +24,7 @@ GO
 GO
 CREATE TABLE [dbo].[CurrentVehicles] (
     [LotID]     INT          IDENTITY (1000, 1) NOT NULL,
-    [VIN]       VARCHAR (17) Primary Key,
+    [VIN]       NCHAR (17) Primary Key,
     [Year]      INT          NOT NULL,
     [Make]      NCHAR (30)   NOT NULL,
     [Model]     NCHAR (30)   NOT NULL,
@@ -37,7 +37,7 @@ GO
 
 Create Table [dbo].[SoldVehicles](
 
-    [VIN]			 VARCHAR (17) Primary Key,
+    [VIN]			 NCHAR (17) Primary Key,
 	[Customer Name]  Nchar(30)	  NOT NULL,
     [Address1]	     NCHAR(30)    NULL,
 	[Address2]		 NCHAR(30)	  Null,
@@ -51,7 +51,7 @@ Create Table [dbo].[SoldVehicles](
 );
 GO
 Create Table[dbo].[PurchasedVehicles](
-    [VIN]			 VARCHAR (17) Primary Key,
+    [VIN]			 NCHAR (17) Primary Key,
     [Year]			 int          NOT NULL,
     [Make]			 NCHAR (30)   NOT NULL,
     [Model]			 NCHAR (30)   NOT NULL,

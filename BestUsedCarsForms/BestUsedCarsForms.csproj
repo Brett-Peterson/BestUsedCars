@@ -46,25 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmVehiclePurchase.cs">
+    <Compile Include="FrmVehicleCost.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmVehiclePurchase.Designer.cs">
-      <DependentUpon>frmVehiclePurchase.cs</DependentUpon>
+    <Compile Include="FrmVehicleCost.Designer.cs">
+      <DependentUpon>FrmVehicleCost.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmVehicleSale.cs">
+    <Compile Include="FrmVehiclePurchase.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmVehicleSale.Designer.cs">
-      <DependentUpon>frmVehicleSale.cs</DependentUpon>
+    <Compile Include="FrmVehiclePurchase.Designer.cs">
+      <DependentUpon>FrmVehiclePurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVehicleSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVehicleSale.Designer.cs">
+      <DependentUpon>FrmVehicleSale.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmVehiclePurchase.resx">
-      <DependentUpon>frmVehiclePurchase.cs</DependentUpon>
+    <EmbeddedResource Include="FrmVehicleCost.resx">
+      <DependentUpon>FrmVehicleCost.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmVehicleSale.resx">
-      <DependentUpon>frmVehicleSale.cs</DependentUpon>
+    <EmbeddedResource Include="FrmVehiclePurchase.resx">
+      <DependentUpon>FrmVehiclePurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVehicleSale.resx">
+      <DependentUpon>FrmVehicleSale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
