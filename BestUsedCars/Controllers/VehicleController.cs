@@ -37,7 +37,8 @@ namespace BestUsedCars.Controllers
                     Make = make,
                     Model = model,
                     Color = color,
-                    Miles = miles
+                    Miles = miles,
+                    Cost = cost
                 };
             }
         }
