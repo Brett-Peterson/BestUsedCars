@@ -16,7 +16,7 @@ namespace BestUsedCarsForms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmVehiclePurchase());
+            Application.Run(new FrmVehiclePurchase());
         }
     }
 }

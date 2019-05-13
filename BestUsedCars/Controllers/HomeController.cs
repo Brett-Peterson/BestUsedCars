@@ -5,8 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BestUsedCars.Models;
+using BestUsedCars.Controllers;
+using Microsoft.EntityFrameworkCore;
 
-namespace BestUsedCars.Controllers
+namespace BestUsedCars
 {
     public class HomeController : Controller
     {
@@ -43,23 +45,20 @@ namespace BestUsedCars.Controllers
         }
         public IActionResult CurrentList()
         {
-            //TODO create list and display here
-
-
-            /* private async Task ReadVehiclesAsync()
-             {
-                 using (var context = new VehicleContext())
-                 {
-                     List<Vehicle> CurrentList = await context.Vehicles.ToListAsync();
-                     foreach (var v in Vehicles)
-                     {
-                         Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.Miles}{v.Price}");
-                     }
-                 }
-                 Console.WriteLine();
-             }
-             */
-            return View();
+           // await CreateCurrentVehicleListAsync();
+            return  View(CreateCurrentVehicleListAsync());
+        }
+        private async Task CreateCurrentVehicleListAsync()
+        {
+            using (var context = new VehiclesContext())
+            {
+                List<Vehicle> CurrentVehicles = await context.Vehicles.ToListAsync();
+                foreach (var v in CurrentVehicles)
+                {
+                    Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.SalePrice}");
+                }
+            }
+            Console.WriteLine();
         }
     }
 }

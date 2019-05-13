@@ -8,24 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace BestUsedCarsForms
 {
-    public partial class FrmVehicleSale : Form
+    public partial class FrmVehicleCost : Form
     {
-        public FrmVehicleSale()
+        public FrmVehicleCost()
         {
             InitializeComponent();
-        }
-
-        private void btnSubmitSaleForm_Click(object sender, EventArgs e)
-        {
-            AddVehicleAsync();
-        }
-        private void AddVehicleAsync()
-        { 
-             
-
         }
     }
 }

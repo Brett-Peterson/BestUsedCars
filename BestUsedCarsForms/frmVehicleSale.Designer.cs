@@ -1,6 +1,6 @@
 ﻿namespace BestUsedCarsForms
 {
-    partial class frmVehicleSale
+    partial class FrmVehicleSale
     {
         /// <summary>
         /// Required designer variable.
@@ -54,6 +54,12 @@
             this.tbOtherFees = new System.Windows.Forms.TextBox();
             this.lblTotal = new System.Windows.Forms.Label();
             this.tbTotal = new System.Windows.Forms.TextBox();
+            this.lblSalesAgent = new System.Windows.Forms.Label();
+            this.tbSalesAgent = new System.Windows.Forms.TextBox();
+            this.lblManager = new System.Windows.Forms.Label();
+            this.tbManager = new System.Windows.Forms.TextBox();
+            this.btnSubmitSaleForm = new System.Windows.Forms.Button();
+            this.cbWarranty = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // tbSaleDate
@@ -79,6 +85,7 @@
             this.tbVIN.Name = "tbVIN";
             this.tbVIN.Size = new System.Drawing.Size(200, 20);
             this.tbVIN.TabIndex = 2;
+            this.tbVIN.UseWaitCursor = true;
             // 
             // lblVIN
             // 
@@ -271,11 +278,69 @@
             this.tbTotal.Size = new System.Drawing.Size(100, 20);
             this.tbTotal.TabIndex = 25;
             // 
-            // frmVehicleSale
+            // lblSalesAgent
+            // 
+            this.lblSalesAgent.AutoSize = true;
+            this.lblSalesAgent.Location = new System.Drawing.Point(58, 294);
+            this.lblSalesAgent.Name = "lblSalesAgent";
+            this.lblSalesAgent.Size = new System.Drawing.Size(64, 13);
+            this.lblSalesAgent.TabIndex = 26;
+            this.lblSalesAgent.Text = "Sales Agent";
+            // 
+            // tbSalesAgent
+            // 
+            this.tbSalesAgent.Location = new System.Drawing.Point(140, 287);
+            this.tbSalesAgent.Name = "tbSalesAgent";
+            this.tbSalesAgent.Size = new System.Drawing.Size(205, 20);
+            this.tbSalesAgent.TabIndex = 27;
+            // 
+            // lblManager
+            // 
+            this.lblManager.AutoSize = true;
+            this.lblManager.Location = new System.Drawing.Point(61, 345);
+            this.lblManager.Name = "lblManager";
+            this.lblManager.Size = new System.Drawing.Size(49, 13);
+            this.lblManager.TabIndex = 28;
+            this.lblManager.Text = "Manager";
+            // 
+            // tbManager
+            // 
+            this.tbManager.Location = new System.Drawing.Point(140, 345);
+            this.tbManager.Name = "tbManager";
+            this.tbManager.Size = new System.Drawing.Size(205, 20);
+            this.tbManager.TabIndex = 29;
+            // 
+            // btnSubmitSaleForm
+            // 
+            this.btnSubmitSaleForm.Location = new System.Drawing.Point(491, 294);
+            this.btnSubmitSaleForm.Name = "btnSubmitSaleForm";
+            this.btnSubmitSaleForm.Size = new System.Drawing.Size(108, 70);
+            this.btnSubmitSaleForm.TabIndex = 30;
+            this.btnSubmitSaleForm.Text = "Submit Sale Form";
+            this.btnSubmitSaleForm.UseVisualStyleBackColor = true;
+            this.btnSubmitSaleForm.Click += new System.EventHandler(this.btnSubmitSaleForm_Click);
+            // 
+            // cbWarranty
+            // 
+            this.cbWarranty.AutoSize = true;
+            this.cbWarranty.Location = new System.Drawing.Point(636, 46);
+            this.cbWarranty.Name = "cbWarranty";
+            this.cbWarranty.Size = new System.Drawing.Size(123, 17);
+            this.cbWarranty.TabIndex = 31;
+            this.cbWarranty.Text = "Purchased Warranty";
+            this.cbWarranty.UseVisualStyleBackColor = true;
+            // 
+            // FrmVehicleSale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cbWarranty);
+            this.Controls.Add(this.btnSubmitSaleForm);
+            this.Controls.Add(this.tbManager);
+            this.Controls.Add(this.lblManager);
+            this.Controls.Add(this.tbSalesAgent);
+            this.Controls.Add(this.lblSalesAgent);
             this.Controls.Add(this.tbTotal);
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.tbOtherFees);
@@ -302,8 +367,8 @@
             this.Controls.Add(this.tbVIN);
             this.Controls.Add(this.lblSaleDate);
             this.Controls.Add(this.tbSaleDate);
-            this.Name = "frmVehicleSale";
-            this.Text = "frmVehicleSale";
+            this.Name = "FrmVehicleSale";
+            this.Text = "Vehicle Sale Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -337,5 +402,11 @@
         private System.Windows.Forms.TextBox tbOtherFees;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.TextBox tbTotal;
+        private System.Windows.Forms.Label lblSalesAgent;
+        private System.Windows.Forms.TextBox tbSalesAgent;
+        private System.Windows.Forms.Label lblManager;
+        private System.Windows.Forms.TextBox tbManager;
+        private System.Windows.Forms.Button btnSubmitSaleForm;
+        private System.Windows.Forms.CheckBox cbWarranty;
     }
 }
