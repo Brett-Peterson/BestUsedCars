@@ -21,12 +21,12 @@ namespace BestUsedCars.Controllers
                 List<Vehicle> CurrentVehicles = await context.Vehicles.ToListAsync();
                 foreach (var v in CurrentVehicles)
                 {
-                    Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.SalePrice}");
+                    Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.Miles}{v.Cost}");
                 }
             }
             Console.WriteLine();
         }
-        private async Task AddVehicleAsync(string vin, int year,string make, string model, string color, int miles)
+        private async Task ProcessPurchaseFormAsync(string vin, int year,string make, string model, string color, int miles,int cost, string sellerName,DateTime purchaseDate)
         {
             using (var context = new VehiclesContext())
             {
@@ -38,11 +38,14 @@ namespace BestUsedCars.Controllers
                     Model = model,
                     Color = color,
                     Miles = miles,
-                    Cost = cost
+                    Cost = cost,
+                    SellerName = sellerName,
+                    PurchaseDate = purchaseDate
+
                 };
             }
         }
-        private async Task UpdateVehicleAsync()
+        private async Task UpdateVehicleCostAsync()
         {
             using (var context = new VehiclesContext())
             {

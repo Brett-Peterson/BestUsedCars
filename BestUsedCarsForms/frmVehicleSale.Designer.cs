@@ -59,7 +59,6 @@
             this.lblManager = new System.Windows.Forms.Label();
             this.tbManager = new System.Windows.Forms.TextBox();
             this.btnSubmitSaleForm = new System.Windows.Forms.Button();
-            this.cbWarranty = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // tbSaleDate
@@ -320,22 +319,11 @@
             this.btnSubmitSaleForm.UseVisualStyleBackColor = true;
             this.btnSubmitSaleForm.Click += new System.EventHandler(this.btnSubmitSaleForm_Click);
             // 
-            // cbWarranty
-            // 
-            this.cbWarranty.AutoSize = true;
-            this.cbWarranty.Location = new System.Drawing.Point(636, 46);
-            this.cbWarranty.Name = "cbWarranty";
-            this.cbWarranty.Size = new System.Drawing.Size(123, 17);
-            this.cbWarranty.TabIndex = 31;
-            this.cbWarranty.Text = "Purchased Warranty";
-            this.cbWarranty.UseVisualStyleBackColor = true;
-            // 
             // FrmVehicleSale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.cbWarranty);
             this.Controls.Add(this.btnSubmitSaleForm);
             this.Controls.Add(this.tbManager);
             this.Controls.Add(this.lblManager);
@@ -407,6 +395,5 @@
         private System.Windows.Forms.Label lblManager;
         private System.Windows.Forms.TextBox tbManager;
         private System.Windows.Forms.Button btnSubmitSaleForm;
-        private System.Windows.Forms.CheckBox cbWarranty;
     }
 }
