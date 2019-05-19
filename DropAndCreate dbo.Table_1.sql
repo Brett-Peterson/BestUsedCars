@@ -28,11 +28,10 @@ CREATE TABLE [dbo].[PurchasedVehicles] (
     [Color]			NCHAR (20)   NOT NULL,
     [Miles]			INT          Not NULL,
     [Cost]			MONEY        Not NULL,
-	[SellerName]    NCHAR(30)    NOT NULL
+	[SellerName]    NCHAR(30)    NOT NULL,
+	[PurchaseDate]	Date		 Null
 );
 GO
-
-
 
 Create Table[dbo].[CurrentVehicles](
     [VIN]			 NCHAR (17) Primary Key,
@@ -41,7 +40,7 @@ Create Table[dbo].[CurrentVehicles](
 	[PrepCosts]		 Money		  NULL,
 	[OtherCosts]	 Money		  Null,
 	[TotalCost]		 Money		  NOT NULL,
-
+	[ListedPrice]	 Money		  Null
 	);
 GO
 Create Table [dbo].[SoldVehicles](
@@ -56,8 +55,6 @@ Create Table [dbo].[SoldVehicles](
     [SalePrice]      MONEY        NOT NULL,
 	[SalesDate]		 Date		  Not Null,
 	[SalesAgent]	 NCHAR(30)	  NOT NULL,
-
-
 
 );
 GO

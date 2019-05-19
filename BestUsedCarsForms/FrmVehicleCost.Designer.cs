@@ -147,12 +147,13 @@
             this.btnUpdateCost.TabIndex = 12;
             this.btnUpdateCost.Text = "Update Cost";
             this.btnUpdateCost.UseVisualStyleBackColor = true;
+            this.btnUpdateCost.Click += new System.EventHandler(this.btnUpdateCost_Click);
             // 
             // FrmVehicleCost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(614, 450);
+            this.ClientSize = new System.Drawing.Size(358, 450);
             this.Controls.Add(this.btnUpdateCost);
             this.Controls.Add(this.tbTotalCost);
             this.Controls.Add(this.tbOtherFees);

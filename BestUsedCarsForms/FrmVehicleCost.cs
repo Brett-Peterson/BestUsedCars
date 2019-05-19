@@ -16,5 +16,10 @@ namespace BestUsedCarsForms
         {
             InitializeComponent();
         }
+
+        private void btnUpdateCost_Click(object sender, EventArgs e)
+        {
+            UpdateVehicleCostAsync();
+        }
     }
 }
