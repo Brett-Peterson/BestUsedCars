@@ -10,6 +10,6 @@ namespace BestUsedCars.Models
     {
         public VehiclesDbContext(DbContextOptions<VehiclesDbContext> options) : base(options) { }
 
-        public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<PurchasedVehicle> Vehicles { get; set; }
     }
 }

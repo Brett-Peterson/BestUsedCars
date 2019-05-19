@@ -18,7 +18,7 @@ namespace BestUsedCars.Controllers
         {
             using (var context = new VehiclesContext())
             {
-                List<Vehicle> CurrentVehicles = await context.Vehicles.ToListAsync();
+                List<PurchasedVehicle> CurrentVehicles = await context.Vehicles.ToListAsync();
                 foreach (var v in CurrentVehicles)
                 {
                     Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.Miles}{v.Cost}");
@@ -30,7 +30,7 @@ namespace BestUsedCars.Controllers
         {
             using (var context = new VehiclesContext())
             {
-                var vehicle = new Vehicle
+                var vehicle = new PurchasedVehicle
                 {
                     VIN = vin,
                     Year = year,
@@ -50,7 +50,7 @@ namespace BestUsedCars.Controllers
             using (var context = new VehiclesContext())
             {
                 //I need to find out how to grab a VIN from an Update vehicle form
-               // Vehicle vehicle = await context.Vehicles.Where
+               // Vehicle vehicle = await context.Vehicles.Where VIN =
                     
 
             }
