@@ -7,6 +7,6 @@ namespace BestUsedCars.Models
 {
     public interface IVehicleRepository
     {
-        IQueryable<Vehicle> Vehicles { get; }
+        IQueryable<PurchasedVehicle> Vehicles { get; }
     }
 }

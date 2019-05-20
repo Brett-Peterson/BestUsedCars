@@ -41,12 +41,13 @@
             this.tbOtherFees = new System.Windows.Forms.TextBox();
             this.tbTotalCost = new System.Windows.Forms.TextBox();
             this.btnUpdateCost = new System.Windows.Forms.Button();
+            this.btnGetRecord = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblVIN
             // 
             this.lblVIN.AutoSize = true;
-            this.lblVIN.Location = new System.Drawing.Point(41, 74);
+            this.lblVIN.Location = new System.Drawing.Point(12, 74);
             this.lblVIN.Name = "lblVIN";
             this.lblVIN.Size = new System.Drawing.Size(28, 13);
             this.lblVIN.TabIndex = 0;
@@ -81,7 +82,7 @@
             // 
             // tbVIN
             // 
-            this.tbVIN.Location = new System.Drawing.Point(82, 67);
+            this.tbVIN.Location = new System.Drawing.Point(46, 67);
             this.tbVIN.Name = "tbVIN";
             this.tbVIN.Size = new System.Drawing.Size(171, 20);
             this.tbVIN.TabIndex = 4;
@@ -149,11 +150,22 @@
             this.btnUpdateCost.UseVisualStyleBackColor = true;
             this.btnUpdateCost.Click += new System.EventHandler(this.btnUpdateCost_Click);
             // 
+            // btnGetRecord
+            // 
+            this.btnGetRecord.Location = new System.Drawing.Point(255, 64);
+            this.btnGetRecord.Name = "btnGetRecord";
+            this.btnGetRecord.Size = new System.Drawing.Size(75, 23);
+            this.btnGetRecord.TabIndex = 13;
+            this.btnGetRecord.Text = "Get Record";
+            this.btnGetRecord.UseVisualStyleBackColor = true;
+            this.btnGetRecord.Click += new System.EventHandler(this.btnGetRecord_Click);
+            // 
             // FrmVehicleCost
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(358, 450);
+            this.Controls.Add(this.btnGetRecord);
             this.Controls.Add(this.btnUpdateCost);
             this.Controls.Add(this.tbTotalCost);
             this.Controls.Add(this.tbOtherFees);
@@ -189,5 +201,6 @@
         private System.Windows.Forms.TextBox tbOtherFees;
         private System.Windows.Forms.TextBox tbTotalCost;
         private System.Windows.Forms.Button btnUpdateCost;
+        private System.Windows.Forms.Button btnGetRecord;
     }
 }

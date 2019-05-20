@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace BestUsedCars.Models
 {
-    public class Vehicle
+    public class PurchasedVehicle
     {
+        //This Vehicle reflects the PurchasedVehicle table in database
         //I will use the Vehicle Vehicle Identification Number VIN as my Primary Key
         //LotId is a self generated number for business use
-          //I want to set it up as a 3 step process Vehicle is 
+        //I want to set it up as a 3 step process PurchasedVehicle to CurrentVehicle to SoldVehicle 
         public int LotId { get; set; }
         public string VIN { get; set; }
         public int Year { get; set; }

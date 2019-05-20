@@ -21,5 +21,10 @@ namespace BestUsedCarsForms
         {
             UpdateVehicleCostAsync();
         }
+
+        private void btnGetRecord_Click(object sender, EventArgs e)
+        {
+            GetRecordAsync();
+        }
     }
 }
