@@ -55,7 +55,7 @@ namespace BestUsedCars
                 List<PurchasedVehicle> CurrentVehicles = await context.Vehicles.ToListAsync();
                 foreach (var v in CurrentVehicles)
                 {
-                    Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.SalePrice}");
+                    Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.Cost}");
                 }
             }
             Console.WriteLine();
