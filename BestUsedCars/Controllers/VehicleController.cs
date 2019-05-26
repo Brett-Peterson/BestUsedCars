@@ -14,7 +14,7 @@ namespace BestUsedCars.Controllers
         {
             return View();
         }
-        private async Task CreateCurrentVehicleListAsync()
+        private async Task CreatePurchasedVehicleListAsync()
         {
             using (var context = new VehiclesContext())
             {
@@ -27,6 +27,9 @@ namespace BestUsedCars.Controllers
             Console.WriteLine();
         }
 
+    }
+}
+/*
         private async Task ProcessPurchaseFormAsync(string vin, int year, string make, string model, string color, int miles, int cost, string sellerName, DateTime purchaseDate)
         {
             using (var context = new VehiclesContext())
@@ -70,3 +73,4 @@ namespace BestUsedCars.Controllers
         }
     }
 }
+*/
