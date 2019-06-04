@@ -10,10 +10,14 @@ namespace BestUsedCars.Controllers
 {
     public class VehicleController : Controller
     {
+        
+
+
         public IActionResult Index()
         {
             return View();
         }
+
         private async Task CreatePurchasedVehicleListAsync()
         {
             using (var context = new VehiclesContext())
@@ -29,9 +33,11 @@ namespace BestUsedCars.Controllers
 
     }
 }
-/*
-        private async Task ProcessPurchaseFormAsync(string vin, int year, string make, string model, string color, int miles, int cost, string sellerName, DateTime purchaseDate)
+
+ /*       private async Task ProcessPurchaseFormAsync(string vin, int year, string make, string model, string color, int miles, int cost, string sellerName, DateTime purchaseDate)
         {
+
+        
             using (var context = new VehiclesContext())
             {
                 var vehicle = new PurchasedVehicle
@@ -47,6 +53,7 @@ namespace BestUsedCars.Controllers
                     PurchaseDate = purchaseDate
 
                 };
+
             }
         }
 
