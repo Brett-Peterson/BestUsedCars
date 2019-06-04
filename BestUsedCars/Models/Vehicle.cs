@@ -26,9 +26,9 @@ namespace BestUsedCars.Models
        
     }
 
-    public class CurrentVehicle 
+    public class CurrentVehicle : PurchasedVehicle
     {
-         public string VIN { get; set; }
+         //public string VIN { get; set; } redundant
          public string PicId { get; set; }        
          public double RepairCost { get; set; }
          public double PrepCost { get; set; }
@@ -37,9 +37,9 @@ namespace BestUsedCars.Models
          public double ListedPrice { get; set; }
 
     }
-    public class SoldVehicle 
+    public class SoldVehicle : CurrentVehicle
     {
-        public string VIN { get; set; }              
+        //public string VIN { get; set; }   redundant           
         public string CustomerName { get; set; }
         public string Address1 { get; set; }
         public string Address2 { get; set; }

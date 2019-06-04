@@ -13,7 +13,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Views\images\2009MDX_600x450.jpg" />
+    <Content Include="Views\images\2010CamaroSS_1200x900.jpg" />
+    <Content Include="Views\images\2016-mclaren-540c-reveal-16.jpg" />
+    <Content Include="Views\images\2016BMW_600x450.jpg" />
+    <Content Include="Views\images\2018-dodge-challenger_100599138_h.jpg" />
+    <Content Include="Views\images\aston-martin-v12-vantage-roadster-2.jpg" />
+    <Content Include="Views\images\Dealerships-1.jpg" />
+    <Content Include="Views\images\F150Black_1200x900.jpg" />
+    <Content Include="Views\images\porsche-mission-e-concept--2015-frankfurt-auto-show-live-photos_100528114_h - Copy.jpg" />
+    <Content Include="Views\images\_2017GMCSierra_600x450.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\3995948133_665fc1b388_z.jpg" />
+    <None Include="wwwroot\css\ford-mustang_100698030_l.jpg" />
     <None Include="wwwroot\css\Mechanic.jpg" />
+    <None Include="wwwroot\css\Opel-GT-Sports-Car-Concept-19.jpg" />
     <None Include="wwwroot\css\vintage1.jpg" />
     <None Include="wwwroot\css\vintage2.jpg" />
   </ItemGroup>
@@ -23,6 +39,12 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0-preview5.19224.8" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>
