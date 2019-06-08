@@ -19,7 +19,6 @@
     <Content Include="Views\images\2016BMW_600x450.jpg" />
     <Content Include="Views\images\2018-dodge-challenger_100599138_h.jpg" />
     <Content Include="Views\images\aston-martin-v12-vantage-roadster-2.jpg" />
-    <Content Include="Views\images\Dealerships-1.jpg" />
     <Content Include="Views\images\F150Black_1200x900.jpg" />
     <Content Include="Views\images\porsche-mission-e-concept--2015-frankfurt-auto-show-live-photos_100528114_h - Copy.jpg" />
     <Content Include="Views\images\_2017GMCSierra_600x450.jpg" />
@@ -27,6 +26,7 @@
 
   <ItemGroup>
     <None Include="wwwroot\css\3995948133_665fc1b388_z.jpg" />
+    <None Include="wwwroot\css\Dealerships-1.jpg" />
     <None Include="wwwroot\css\ford-mustang_100698030_l.jpg" />
     <None Include="wwwroot\css\Mechanic.jpg" />
     <None Include="wwwroot\css\Opel-GT-Sports-Car-Concept-19.jpg" />

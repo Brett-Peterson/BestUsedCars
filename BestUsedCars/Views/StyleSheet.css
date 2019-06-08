@@ -6,7 +6,7 @@ body {
 
 }
 
-@media only screen and (min-width: 1021px) and (max-width:1500px){
+@media only screen and (min-width: 1021px) {
     .masonry {
         column-count: 3;
     }
@@ -16,13 +16,13 @@ body {
         column-count: 2;
     }
 }
-@media only screen and (min-width: 0px) and (max-width:729px) {
+@media only screen and  (max-width:729px) {
     .masonry {
         column-count: 1;
     }
 }
 figure.mason-thumb a img {
-    width: 30%;
+    width: 100%;
 }
 
 figure.mason-thumb {
