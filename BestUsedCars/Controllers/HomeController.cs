@@ -43,10 +43,10 @@ namespace BestUsedCars
         {
             return View();
         }
-        public IActionResult CurrentList()
+        public IActionResult CurrentVehicles()
         {
-           // await CreateCurrentVehicleListAsync();
-            return  View(CreateCurrentVehicleListAsync());
+           
+            return  View();
         }
         private async Task CreateCurrentVehicleListAsync()
         {
