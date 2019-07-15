@@ -19,7 +19,7 @@ namespace BestUsedCarsForms
 
         private void btnPurchaseVehicle_Click(object sender, EventArgs e)
         {
-            ProcessPurchaseFormAsync();
+            //ProcessPurchaseFormAsync();
         }
 
     }
