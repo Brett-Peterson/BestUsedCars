@@ -17,10 +17,10 @@ namespace BestUsedCarsForms
             InitializeComponent();
         }
 
-        private void btnPurchaseVehicle_Click(object sender, EventArgs e)
-        {
-            ProcessPurchaseFormAsync();
-        }
+        //private void btnPurchaseVehicle_Click(object sender, EventArgs e)
+        //{
+        //    ProcessPurchaseFormAsync();
+        //}
 
     }
 

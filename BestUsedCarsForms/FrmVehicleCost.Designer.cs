@@ -148,7 +148,7 @@
             this.btnUpdateCost.TabIndex = 12;
             this.btnUpdateCost.Text = "Update Cost";
             this.btnUpdateCost.UseVisualStyleBackColor = true;
-            this.btnUpdateCost.Click += new System.EventHandler(this.btnUpdateCost_Click);
+            //this.btnUpdateCost.Click += new System.EventHandler(this.btnUpdateCost_Click);
             // 
             // btnGetRecord
             // 
@@ -158,7 +158,7 @@
             this.btnGetRecord.TabIndex = 13;
             this.btnGetRecord.Text = "Get Record";
             this.btnGetRecord.UseVisualStyleBackColor = true;
-            this.btnGetRecord.Click += new System.EventHandler(this.btnGetRecord_Click);
+            //this.btnGetRecord.Click += new System.EventHandler(this.btnGetRecord_Click);
             // 
             // FrmVehicleCost
             // 

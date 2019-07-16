@@ -43,22 +43,22 @@ namespace BestUsedCars
         {
             return View();
         }
-        public IActionResult CurrentList()
+        public IActionResult CurrentVehicles()
         {
            // await CreateCurrentVehicleListAsync();
-            return  View(CreateCurrentVehicleListAsync());
+            return  View();
         }
-        private async Task CreateCurrentVehicleListAsync()
-        {
-            using (var context = new VehiclesContext())
-            {
-                List<PurchasedVehicle> CurrentVehicles = await context.Vehicles.ToListAsync();
-                foreach (var v in CurrentVehicles)
-                {
-                    Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.Cost}");
-                }
-            }
-            Console.WriteLine();
-        }
+        //private async Task CreateCurrentVehicleListAsync()
+        //{
+        //    using (var context = new VehiclesContext())
+        //    {
+        //        List<PurchasedVehicle> CurrentVehicles = await context.Vehicles.ToListAsync();
+        //        foreach (var v in CurrentVehicles)
+        //        {
+        //            Console.WriteLine($"{v.VIN}{v.Year}{v.Make}{v.Model}{v.Color}{v.Cost}");
+        //        }
+        //    }
+        //    Console.WriteLine();
+        //}
     }
 }
