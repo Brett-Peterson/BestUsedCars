@@ -17,14 +17,14 @@ namespace BestUsedCarsForms
             InitializeComponent();
         }
 
-        private void btnUpdateCost_Click(object sender, EventArgs e)
-        {
-            UpdateVehicleCostAsync();
-        }
+        //private void btnUpdateCost_Click(object sender, EventArgs e)
+        //{
+        //    UpdateVehicleCostAsync();
+        //}
 
-        private void btnGetRecord_Click(object sender, EventArgs e)
-        {
-            GetRecordAsync();
-        }
+        //private void btnGetRecord_Click(object sender, EventArgs e)
+        //{
+        //    GetRecordAsync();
+        //}
     }
 }
