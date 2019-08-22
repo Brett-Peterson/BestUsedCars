@@ -290,7 +290,7 @@
             this.btnPurchaseVehicle.TabIndex = 28;
             this.btnPurchaseVehicle.Text = "Enter Purchase";
             this.btnPurchaseVehicle.UseVisualStyleBackColor = true;
-            this.btnPurchaseVehicle.Click += new System.EventHandler(this.btnPurchaseVehicle_Click);
+            //this.btnPurchaseVehicle.Click += new System.EventHandler(this.btnPurchaseVehicle_Click);
             // 
             // frmVehiclePurchase
             // 
